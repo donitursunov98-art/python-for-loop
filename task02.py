@@ -1,5 +1,8 @@
-n = 15
-r = range(1, n+1)
+n = int(input('n: '))
 
-for i in r:
-    print(i)
+if n >=1:
+    for i in range(1, n + 1):
+        print(i)
+else:
+    for i in range(1, n - 1, -1):
+        print(i)
